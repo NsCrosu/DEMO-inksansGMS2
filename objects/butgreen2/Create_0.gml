@@ -1,0 +1,65 @@
+instance_create(0,0,greenallbut1)
+instance_create(0,0,butgreen2_1)
+instance_create(320,95,butgreen2_2)
+switch(irandom(2)){
+  case 0:{
+    mk=instance_create(280,180,butgreen2_3)
+    mk.anj=1
+    mk=instance_create(360,180,butgreen2_3)
+    mk.anj=-1
+    mk=instance_create(280,250,butgreen2_3)
+    mk.anj=-1
+    mk=instance_create(360,250,butgreen2_3)
+    mk.anj=1
+    mk=instance_create(280,320,butgreen2_3)
+    mk.anj=1
+    mk=instance_create(360,320,butgreen2_3)
+    mk.anj=-1
+    break;
+  }
+  case 1:{
+    instance_create(0,0,butgreen2_5)
+    instance_create(245,320,butgreen2_6)
+    break;
+  }
+  case 2:{
+    dir=random(360)
+    repeat(2){
+      mk=instance_create(320,220,butgreen2_7)
+      mk.long=20
+      mk.dir=dir
+      mk.anj=1
+      dir+=180
+    }
+    repeat(3){
+      mk=instance_create(320,220,butgreen2_7)
+      mk.long=40
+      mk.dir=dir
+      mk.anj=-0.85
+      dir+=120
+    }
+    repeat(5){
+      mk=instance_create(320,220,butgreen2_7)
+      mk.long=60
+      mk.dir=dir
+      mk.anj=0.75
+      dir+=72
+    }
+    repeat(7){
+      mk=instance_create(320,220,butgreen2_7)
+      mk.long=80
+      mk.dir=dir
+      mk.anj=-0.7
+      dir+=360/7
+    }
+    repeat(9){
+      mk=instance_create(320,220,butgreen2_7)
+      mk.long=100
+      mk.dir=dir
+      mk.anj=0.65
+      dir+=40
+    }
+    break;
+  }
+}
+

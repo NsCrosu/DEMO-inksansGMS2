@@ -1,0 +1,3 @@
+bkmk();
+fightstart();
+

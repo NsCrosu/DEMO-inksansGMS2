@@ -1,0 +1,3 @@
+fightstart()
+bkmk()
+

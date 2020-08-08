@@ -1,0 +1,9 @@
+alarm[1]=1
+alarm[0]=1
+strs=start.mstn
+v = 0;
+vuuu = 0;
+time = 0;
+gn = 0;
+gu = 0;
+start.xtttttt = 0;

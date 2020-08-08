@@ -1,0 +1,14 @@
+event_inherited();
+bl1 = 0;
+bl2 = 0;
+bl3 = 0;
+bl4 = 0;
+bl5 = 0;
+bl6 = 0;
+bl7 = 0;
+bl8 = 0;
+bl9 = 0;
+bl10 = 0;
+xt = 0;
+endt = false;
+depth = -1;

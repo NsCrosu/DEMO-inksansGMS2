@@ -1,0 +1,234 @@
+Font fntdetermine has been converted to font family Determination Sans (Regular) - Font has been regenerated, small inconsistencies may occur
+Font fntbigdetermine has been converted to font family Determination Sans (Regular) - Font has been regenerated, small inconsistencies may occur
+Font fntbigdetermine2 has been converted to font family Determination Sans (Regular) - Font has been regenerated, small inconsistencies may occur
+Font fntrightdetermine has been converted to font family Determination Sans (Regular) - Font has been regenerated, small inconsistencies may occur
+Converting GML script: ${project_dir}\objects\playerjuqing\Create_0.gml
+Converted builtin - line 6: background_visible[0]=0 -> __background_set( e__BG.Visible, 0, 0 )
+
+Converting GML script: ${project_dir}\objects\tx\Draw_0.gml
+Converted builtin - line 6: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 6: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 6: view_yview -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 6: view_yview -> __view_get( e__VW.YView, 0 )
+
+Converting GML script: ${project_dir}\objects\fselect\Step_0.gml
+Converted string - line 17: 'X' -> "X"
+
+Converting GML script: ${project_dir}\objects\actselect\Step_0.gml
+Converted string - line 18: 'X' -> "X"
+
+Converting GML script: ${project_dir}\objects\actselect2\Step_0.gml
+Converted string - line 26: '' -> ""
+Converted string - line 58: '' -> ""
+Converted string - line 89: 'X' -> "X"
+
+Converting GML script: ${project_dir}\objects\actmyed\Step_0.gml
+ERROR: F:\ProjectIS\inksansGMS2\objects\actmyed\Step_0.gml - 110: assignment to multi-relational-equality expression - GML does not support multiple assignments in an expression
+ERROR: F:\ProjectIS\inksansGMS2\objects\actmyed\Step_0.gml - 121: unexpected syntax error
+Too many errors - GML not processed : ${project_dir}\objects\actmyed\Step_0.gml
+
+Converting GML script: ${project_dir}\objects\itemselect\Step_0.gml
+Converted string - line 44: 'X' -> "X"
+
+Converting GML script: ${project_dir}\objects\myselect\Step_0.gml
+ERROR: F:\ProjectIS\inksansGMS2\objects\myselect\Step_0.gml - 42: assignment to multi-relational-equality expression - GML does not support multiple assignments in an expression
+Too many errors - GML not processed : ${project_dir}\objects\myselect\Step_0.gml
+
+Converting GML script: ${project_dir}\objects\start\Create_0.gml
+Converted string - line 3: 'Z' -> "Z"
+Converted string - line 4: 'X' -> "X"
+
+Converting GML script: ${project_dir}\objects\start\KeyPress_71.gml
+Converted string - line 53: '
+f = file_bin_open("temp",2);
+a1=file_bin_read_byte(f)
+if file_bin_size(f)>1{
+  repeat(file_bin_size(f)-1){
+    a2+=file_bin_read_byte(f)*power(2,ibb)
+    ibb+=1
+  }
+}
+ibb=0
+file_bin_rewrite(f)
+file_bin_write_byte(f,a1);
+a2+=1
+while(a2>power(2,ibb)){
+  ibb+=1
+}
+while(a2>0){
+  if a2>=power(2,ibb){
+    a2-=power(2,ibb)
+    file_bin_seek(f,ibb+1)
+    file_bin_write_byte(f,1);
+  }
+  ibb-=1
+}
+ibb=0
+file_bin_close(f);
+start.maxhppl=' -> "
+f = file_bin_open("+"\""+@"temp"+"\""+@",2);
+a1=file_bin_read_byte(f)
+if file_bin_size(f)>1{
+  repeat(file_bin_size(f)-1){
+    a2+=file_bin_read_byte(f)*power(2,ibb)
+    ibb+=1
+  }
+}
+ibb=0
+file_bin_rewrite(f)
+file_bin_write_byte(f,a1);
+a2+=1
+while(a2>power(2,ibb)){
+  ibb+=1
+}
+while(a2>0){
+  if a2>=power(2,ibb){
+    a2-=power(2,ibb)
+    file_bin_seek(f,ibb+1)
+    file_bin_write_byte(f,1);
+  }
+  ibb-=1
+}
+ibb=0
+file_bin_close(f);
+start.maxhppl="
+
+Converting GML script: ${project_dir}\objects\boss1\Create_0.gml
+Converted builtin - line 10: background_visible[0] = false -> __background_set( e__BG.Visible, 0, false )
+Converted builtin - line 11: background_visible[1] = false -> __background_set( e__BG.Visible, 1, false )
+Converted string - line 1: "songs\ink_bgm1.mp3" -> "songs\\ink_bgm1.mp3"
+Converted string - line 2: "songs\ink_bgm2.mp3" -> "songs\\ink_bgm2.mp3"
+Converted string - line 3: "songs\ink_bgm3.mp3" -> "songs\\ink_bgm3.mp3"
+
+Converting GML script: ${project_dir}\objects\gb1_3\Alarm_0.gml
+Converted builtin - line 2: view_xview=0 -> __view_set( e__VW.XView, 0, 0 )
+Converted builtin - line 3: view_yview=0 -> __view_set( e__VW.YView, 0, 0 )
+
+Converting GML script: ${project_dir}\objects\gb1_3\Step_0.gml
+Converted builtin - line 1: view_xview=random_range(-16+alarm[0],16-alarm[0] -> __view_set( e__VW.XView, 0, random_range(-16+alarm[0],16-alarm[0] )
+Converted builtin - line 2: view_yview=random_range(-16+alarm[0],16-alarm[0] -> __view_set( e__VW.YView, 0, random_range(-16+alarm[0],16-alarm[0] )
+
+Converting GML script: ${project_dir}\objects\but9\Step_0.gml
+Converted builtin - line 32: view_yview=bk9.y+bl2-240 -> __view_set( e__VW.YView, 0, bk9.y+bl2-240 )
+Converted builtin - line 37: view_yview=0 -> __view_set( e__VW.YView, 0, 0 )
+
+Converting GML script: ${project_dir}\objects\but11_5\Alarm_0.gml
+Converted builtin - line 2: view_xview=0 -> __view_set( e__VW.XView, 0, 0 )
+Converted builtin - line 3: view_yview=0 -> __view_set( e__VW.YView, 0, 0 )
+
+Converting GML script: ${project_dir}\objects\but11_5\Step_0.gml
+Converted builtin - line 1: view_xview=random_range(-4+alarm[0],4-alarm[0] -> __view_set( e__VW.XView, 0, random_range(-4+alarm[0],4-alarm[0] )
+Converted builtin - line 2: view_yview=random_range(-4+alarm[0],4-alarm[0] -> __view_set( e__VW.YView, 0, random_range(-4+alarm[0],4-alarm[0] )
+
+Converting GML script: ${project_dir}\objects\but16\Step_0.gml
+Converted builtin - line 67: view_yview -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 262: view_yview -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 67: view_yview-=(__view_get( e__VW.YView, 0 )+100)/2 -> __view_set( e__VW.YView, 0, __view_get( e__VW.YView, 0 ) - ((__view_get( e__VW.YView, 0 )+100)/2) )
+Converted builtin - line 262: view_yview-=(__view_get( e__VW.YView, 0 ))/2 -> __view_set( e__VW.YView, 0, __view_get( e__VW.YView, 0 ) - ((__view_get( e__VW.YView, 0 ))/2) )
+
+Converting GML script: ${project_dir}\objects\but16_8\Alarm_0.gml
+Converted builtin - line 2: view_xview=0 -> __view_set( e__VW.XView, 0, 0 )
+Converted builtin - line 3: view_yview=-100 -> __view_set( e__VW.YView, 0, -100 )
+
+Converting GML script: ${project_dir}\objects\but16_8\Step_0.gml
+Converted builtin - line 1: view_xview=random_range(-16+alarm[0],16-alarm[0] -> __view_set( e__VW.XView, 0, random_range(-16+alarm[0],16-alarm[0] )
+Converted builtin - line 2: view_yview=random_range(-16+alarm[0],16-alarm[0])-100 -> __view_set( e__VW.YView, 0, random_range(-16+alarm[0],16-alarm[0])-100 )
+
+Converting GML script: ${project_dir}\objects\but18\Step_0.gml
+Converted builtin - line 279: view_xview -> __view_get( e__VW.XView, 0 )
+Converted builtin - line 279: view_yview -> __view_get( e__VW.YView, 0 )
+
+Converting GML script: ${project_dir}\objects\but18_13\Alarm_0.gml
+Converted builtin - line 2: view_xview=0 -> __view_set( e__VW.XView, 0, 0 )
+Converted builtin - line 3: view_yview=0 -> __view_set( e__VW.YView, 0, 0 )
+
+Converting GML script: ${project_dir}\objects\but18_13\Step_0.gml
+Converted builtin - line 1: view_xview=random_range(-4+alarm[0],4-alarm[0] -> __view_set( e__VW.XView, 0, random_range(-4+alarm[0],4-alarm[0] )
+Converted builtin - line 2: view_yview=random_range(-4+alarm[0],4-alarm[0] -> __view_set( e__VW.YView, 0, random_range(-4+alarm[0],4-alarm[0] )
+
+Converting GML script: ${project_dir}\objects\but23\Step_0.gml
+ERROR: F:\ProjectIS\inksansGMS2\objects\but23\Step_0.gml - 556: unexpected syntax error
+Too many errors - GML not processed : ${project_dir}\objects\but23\Step_0.gml
+
+Converting GML script: ${project_dir}\objects\but23_3\Destroy_0.gml
+ERROR: F:\ProjectIS\inksansGMS2\objects\but23_3\Destroy_0.gml - 2: nested function calls are not allowed
+Too many errors - GML not processed : ${project_dir}\objects\but23_3\Destroy_0.gml
+
+Converting GML script: ${project_dir}\objects\but23_11\Create_0.gml
+Converted builtin - line 16: view_xview[1+i*2] -> __view_get( e__VW.XView, 1+i*2 )
+Converted builtin - line 2: view_xview[1+i*2] = irandom_range(0,15)*40 -> __view_set( e__VW.XView, 1+i*2, irandom_range(0,15)*40 )
+Converted builtin - line 12: view_xview[2+i*2] = view_xport[1+i*2] -> __view_set( e__VW.XView, 2+i*2, view_xport[1+i*2] )
+Converted builtin - line 17: view_yview[1+i*2] -> __view_get( e__VW.YView, 1+i*2 )
+Converted builtin - line 3: view_yview[1+i*2] = irandom_range(0,11)*40 -> __view_set( e__VW.YView, 1+i*2, irandom_range(0,11)*40 )
+Converted builtin - line 13: view_yview[2+i*2] = view_yport[1+i*2] -> __view_set( e__VW.YView, 2+i*2, view_yport[1+i*2] )
+Converted builtin - line 4: view_wview[1+i*2] = 40 -> __view_set( e__VW.WView, 1+i*2, 40 )
+Converted builtin - line 14: view_wview[2+i*2] = 40 -> __view_set( e__VW.WView, 2+i*2, 40 )
+Converted builtin - line 5: view_hview[1+i*2] = 40 -> __view_set( e__VW.HView, 1+i*2, 40 )
+Converted builtin - line 15: view_hview[2+i*2] = 40 -> __view_set( e__VW.HView, 2+i*2, 40 )
+Converted builtin - line 10: view_visible[1+i*2] = true -> __view_set( e__VW.Visible, 1+i*2, true )
+Converted builtin - line 20: view_visible[2+i*2] = true -> __view_set( e__VW.Visible, 2+i*2, true )
+Converted builtin - line 6: view_xport[1+i*2] = irandom_range(0,15)*40 -> __view_set( e__VW.XPort, 1+i*2, irandom_range(0,15)*40 )
+Converted builtin - line 7: view_yport[1+i*2] = irandom_range(0,11)*40 -> __view_set( e__VW.YPort, 1+i*2, irandom_range(0,11)*40 )
+Converted builtin - line 8: view_wport[1+i*2] = 40 -> __view_set( e__VW.WPort, 1+i*2, 40 )
+Converted builtin - line 18: view_wport[2+i*2] = 40 -> __view_set( e__VW.WPort, 2+i*2, 40 )
+Converted builtin - line 9: view_hport[1+i*2] = 40 -> __view_set( e__VW.HPort, 1+i*2, 40 )
+Converted builtin - line 19: view_hport[2+i*2] = 40 -> __view_set( e__VW.HPort, 2+i*2, 40 )
+Converted builtin - line 12: view_xport[1+i*2] -> __view_get( e__VW.XPort, 1+i*2 )
+Converted builtin - line 16: view_xport[2+i*2] = __view_get( e__VW.XView, 1+i*2 -> __view_set( e__VW.XPort, 2+i*2, __view_get( e__VW.XView, 1+i*2 )
+Converted builtin - line 13: view_yport[1+i*2] -> __view_get( e__VW.YPort, 1+i*2 )
+Converted builtin - line 17: view_yport[2+i*2] = __view_get( e__VW.YView, 1+i*2 -> __view_set( e__VW.YPort, 2+i*2, __view_get( e__VW.YView, 1+i*2 )
+
+Converting GML script: ${project_dir}\objects\but23_11\Alarm_0.gml
+Converted builtin - line 2: view_visible[1+j*2] = false -> __view_set( e__VW.Visible, 1+j*2, false )
+Converted builtin - line 3: view_visible[2+j*2] = false -> __view_set( e__VW.Visible, 2+j*2, false )
+
+Converting GML script: ${project_dir}\objects\butblue2_7\Alarm_0.gml
+Converted builtin - line 2: view_xview=0 -> __view_set( e__VW.XView, 0, 0 )
+Converted builtin - line 3: view_yview=0 -> __view_set( e__VW.YView, 0, 0 )
+
+Converting GML script: ${project_dir}\objects\butblue2_7\Step_0.gml
+Converted builtin - line 1: view_xview=random_range(-4+alarm[0],4-alarm[0] -> __view_set( e__VW.XView, 0, random_range(-4+alarm[0],4-alarm[0] )
+Converted builtin - line 2: view_yview=random_range(-4+alarm[0],4-alarm[0] -> __view_set( e__VW.YView, 0, random_range(-4+alarm[0],4-alarm[0] )
+
+Windows NSIS Installer Script has been set to default due to changes in GameMaker Studio 2
+Converting GML script: ${project_dir}\objects\butpinke4\Step_0.gml
+Converted builtin - line 18: instance_id[irandom(instance_count-1)] -> instance_id_get( irandom(instance_count-1 )
+
+Converting GML script: ${project_dir}\objects\but99\Step_0.gml
+Converted string - line 10: "songs\ink_bgm4.mp3" -> "songs\\ink_bgm4.mp3"
+
+Converting GML script: ${project_dir}\objects\end_1\Step_0.gml
+Converted builtin - line 3: view_yview -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 4: view_yview -> __view_get( e__VW.YView, 0 )
+Converted builtin - line 3: view_yview+=2 -> __view_set( e__VW.YView, 0, __view_get( e__VW.YView, 0 ) + (2) )
+
+Missing audiogroup for sound: 'saysans' - setting to default audio group
+Missing audiogroup for sound: 'saysansadd' - setting to default audio group
+Game speed set to 40
+Added compatibility script 'action/action_draw_sprite.gml'
+Added compatibility script 'action/action_if.gml'
+Added compatibility script 'action/action_kill_object.gml'
+Added compatibility script 'action/action_move.gml'
+Added compatibility script 'action/action_save_game.gml'
+Added compatibility script 'action/action_set_alarm.gml'
+Added compatibility script 'action/action_set_friction.gml'
+Added compatibility script 'background/__background_set.gml'
+Added compatibility script 'background/__background_set_internal.gml'
+Added compatibility script 'draw/draw_set_blend_mode_ext.gml'
+Added compatibility script 'instance/instance_create.gml'
+Added compatibility script 'object/object_get_depth.gml'
+Added compatibility script 'sound/sound_isplaying.gml'
+Added compatibility script 'sound/sound_play.gml'
+Added compatibility script 'sound/sound_stop.gml'
+Added compatibility script 'sound/sound_stop_all.gml'
+Added compatibility script 'view/__view_get.gml'
+Added compatibility script 'view/__view_set.gml'
+Added compatibility script 'view/__view_set_internal.gml'
+Added compatibility script 'action/__init_action.gml'
+Added compatibility script 'background/__init_background.gml'
+Added compatibility script 'view/__init_view.gml'
+Added compatibility script '__init_global.gml'
+Added compatibility script 'background/__background_get_element.gml'
+Added compatibility script 'background/__background_get_internal.gml'
+Added compatibility script 'background/__background_set_element.gml'
+Added compatibility script '__global_object_depths.gml'

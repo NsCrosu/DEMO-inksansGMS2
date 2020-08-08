@@ -1,0 +1,13 @@
+draw_set_color(c_black)
+draw_primitive_begin(pr_trianglestrip)
+draw_vertex(x-2,y-2)
+draw_vertex(x-2+lengthdir_x(200,point_direction(player.x,player.y,x-2,y-2)),y-2+lengthdir_y(200,point_direction(player.x,player.y,x-2,y-2)))
+draw_vertex(x+2,y-2)
+draw_vertex(x+2+lengthdir_x(200,point_direction(player.x,player.y,x+2,y-2)),y-2+lengthdir_y(200,point_direction(player.x,player.y,x+2,y-2)))
+draw_vertex(x+2,y+2)
+draw_vertex(x+2+lengthdir_x(200,point_direction(player.x,player.y,x+2,y+2)),y+2+lengthdir_y(200,point_direction(player.x,player.y,x+2,y+2)))
+draw_vertex(x-2,y+2)
+draw_vertex(x-2+lengthdir_x(200,point_direction(player.x,player.y,x-2,y+2)),y+2+lengthdir_y(200,point_direction(player.x,player.y,x-2,y+2)))
+draw_vertex(x-2,y-2)
+draw_primitive_end()
+

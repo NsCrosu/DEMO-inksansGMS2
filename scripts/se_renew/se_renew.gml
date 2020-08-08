@@ -1,0 +1,1 @@
+global.se_system = part_system_create();

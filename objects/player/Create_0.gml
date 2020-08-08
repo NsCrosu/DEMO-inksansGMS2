@@ -1,0 +1,20 @@
+xt=1
+jump=1
+image_speed=0
+
+global.frozen  = 0;
+xj = 0;
+yj = 0;
+a = 0;
+yllbb = 0;
+xllbb = 0;
+anti = 0;
+g = 0;
+ang = 0;
+endt = 0;
+ohpj = 0;
+yl6 = 0;
+sby = 310;
+buff = 0;
+ed = false;
+nowhppl = 99;

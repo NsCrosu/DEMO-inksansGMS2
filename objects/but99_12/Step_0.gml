@@ -1,0 +1,11 @@
+x += lengthdir_x(spd,dir);
+y += lengthdir_y(spd,dir);
+spd+=0.2;
+a+=1;
+x += lengthdir_x(dsin(a/len*180)*cou*nega,dir+90);
+y += lengthdir_y(dsin(a/len*180)*cou*nega,dir+90);
+image_angle += rspd;
+c = instance_create_depth(x,y,depth+1,but99_13);
+c.image_angle = image_angle;
+c.image_xscale = 0.1;
+c.image_yscale = 0.1;
