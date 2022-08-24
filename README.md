@@ -10,3 +10,9 @@ it will not run at all in GMS2 `2.3` and `above`, because the number of bugs dou
 <br />
 ## Only for issue reporting for the new game.
 仅用于正式版游戏的bug报告<br />
+# !!!IMPORTANT!!!
+ Everyone can clone the project files from here and `make your personal version` of "Ink!sans Fight", but you should `fork` the repo to your own account and edit them in the `branch`. We encourage everyone to download the project for `learning purposes`.<br>
+ You can't release your personal version of isf as the `official` version of Ink!sans Fight, no matter what the version is.<br>
+ Your version is `only` allowed to be played by yourself.<br>
+ You can't `make videos` of your version.<br>
+ You can't `sell the game` for money.<br>
